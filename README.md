@@ -4,11 +4,8 @@ A declarative Python library built on top of pandas that uses human-readable fun
 
 ## Installation
 
-```bash
-pip install ActivePandasQuery
-```
 
-Or install from source:
+
 
 ```bash
 git clone https://github.com/talamann/ActivePandasQuery.git
