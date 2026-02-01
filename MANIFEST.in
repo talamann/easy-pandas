@@ -1,0 +1,5 @@
+# Manifest file for including non-Python files in the distribution
+include README.md
+include LICENSE
+include PUBLISHING.md
+recursive-include examples *.py
