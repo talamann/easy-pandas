@@ -15,6 +15,11 @@ git clone https://github.com/talamann/ActivePandasQuery.git
 cd ActivePandasQuery
 pip install -e .
 ```
+Or using pip
+```bash
+pip install ActivePandasQuery==0.1.0
+```
+
 
 ## Quick Start
 
