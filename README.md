@@ -1,6 +1,6 @@
 # ActivePandasQuery
 
-A declarative Python library built on top of pandas that uses human-readable function names to perform data operations. Inspired by ActiveQuery patterns in PHP, Easy Pandas makes data manipulation more intuitive and expressive.
+A declarative Python library built on top of pandas that uses human-readable function names to perform data operations. Inspired by ActiveQuery patterns in PHP, Easy Pandas makes data manipulation more intuitive and expressive. This project aimes to reduce cognitive load in data intensive projects and enforce type safety.
 
 ## Installation
 
@@ -37,6 +37,16 @@ df = EasyDataFrame(data)
 result = df.filter_age_greaterthan_30()
 print(result)
 ```
+## Comparison with Pandas
+### Pandas
+```bash
+df[(df['age'] > 25) & (df['status'] == 'active')]
+```
+### ActivePandasQuery
+```bash
+df.filter_age_greaterthan_25_and_status_equals_active()
+```
+Makes it easier to read for humans!
 
 ## Features
 
